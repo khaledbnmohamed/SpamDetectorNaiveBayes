@@ -48,4 +48,5 @@ count_vector.get_feature_names()
 
 doc_array = count_vector.transform(documents).toarray() #matrix creation then change to array
 
+print(doc_array)
 
